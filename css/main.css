@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration:  none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+
+.flaticon-000-github img {
+    width: 33px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.icons a span {
+    color:black;
+    width: 30px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
