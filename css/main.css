@@ -1,3 +1,6 @@
+html {
+    font-size: 62.5%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +19,7 @@ a {
 
 header {
     width: 100%;
-    height: 150px;
+    height: 140px;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -52,8 +55,99 @@ header .header-icons-container .icons {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
 }
 
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    border-bottom: 1px solid black;
+    font-size: 1.8rem;
+}
+
+main {
+    height: 100vh;
+    background-image: url('../assets/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-title-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-title-container h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.main-title-container p {
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+
+.main-button {
+    margin: 0 auto;
+}
+
+.main-button button {
+    font-size: 1.8rem;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #47cfac;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+    header .header-icons-container .icons {
+        margin: 0 auto;
+    }
+
+    .icons .flaticon-000-github {
+        margin-right: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-logo-container img {
+        margin: 0;
+    }
+
+    .profile-link {
+        align-self: center;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+}
