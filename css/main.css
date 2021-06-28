@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 html {
     font-size: 62.5%;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -77,8 +79,10 @@ nav .profile-link {
 }
 
 nav .profile-link a {
+    font-family: 'Roboto', monospace;
     border-bottom: 1px solid black;
     font-size: 1.8rem;
+    font-weight: bold;
 }
 
 main {
@@ -86,7 +90,6 @@ main {
     background-image: url('../assets/img/fondo.jpg');
     background-size: cover;
     background-position: center;
-    display: flex;
     justify-content: center;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -100,12 +103,14 @@ main {
 }
 
 .main-title-container h1 {
-    font-size: 4.5rem;
+    font-family: 'Roboto mono', monospace;
+    font-size: 4rem;
     margin: 0;
     margin-bottom: 10px;
 }
 
 .main-title-container p {
+    font-family: 'Roboto', monospace;
     font-size: 1.6rem;
     margin: 0 auto;
 }
