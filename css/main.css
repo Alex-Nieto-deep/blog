@@ -183,6 +183,12 @@ nav .profile-link a {
     text-align: center;
 }
 
+.blogs-button {
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
 
 @media only screen and (max-width: 400px) {
     header .header-icons-container .icons {
