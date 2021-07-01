@@ -85,7 +85,7 @@ nav .profile-link a {
     font-weight: bold;
 }
 
-main {
+.home {
     height: 100vh;
     background-image: url('../assets/img/fondo.jpg');
     background-size: cover;
