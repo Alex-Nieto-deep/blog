@@ -229,7 +229,6 @@ footer p {
     color: white;
     margin-top: 30px;
     font-size: 1.2rem;
-
 }
 
 /* blogpost */
@@ -245,7 +244,7 @@ footer p {
 
 .blogpost-main-container {
     padding: 0 50px 40px;
-    /* text-align: center; */
+    text-align: justify;
 }
 
 .blogpost-main-container h3 {
@@ -262,6 +261,40 @@ footer p {
 .blogpost-main-container p {
     font-size: 1.6rem;
 }
+
+/* section contacto */
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
+}
+
+
 
 @media only screen and (max-width: 400px) {
     header .header-icons-container .icons {
@@ -288,6 +321,6 @@ footer p {
         align-self: center;
         margin-bottom: 20px;
         margin-left: 50px;
-    }
+    }  
 
 }
