@@ -1,0 +1,86 @@
+@media (max-width: 900px) {
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-auto-flow: 3fr;
+    }
+
+    .blogs-news-img-container {
+        grid-row: 2;
+    }
+
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-posts-container .posts-container{
+        max-width: 45%;
+    }
+    .projects-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container{
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    .blogs-posts-container .posts-container{
+        max-width: 95%;
+    }
+    .projects-main-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header .header-icons-container .icons {
+        margin: 0 auto;
+    }
+
+    .icons .flaticon-000-github {
+        margin-right: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-logo-container img {
+        margin: 0;
+    }
+
+    .profile-link {
+        align-self: center;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+
+    .contact-main-container > div {
+        width: 100%;
+        display: block;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-main-container > div img {
+        justify-self: center;
+    }
+
+    .contact-left a {
+        margin-left: 90px;
+    }
+
+    .contact-right a {
+        margin-left: 15px;
+    }
+
+    .contact-right p {
+        margin-left: 12px;
+    }
+
+}

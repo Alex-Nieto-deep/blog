@@ -287,7 +287,7 @@ footer p {
 
 .contact-main-container .contact-left, .contact-right {
     text-align: initial;
-    margin-top: 85px;
+    margin-top: 55px;
 }
 
 .contact-main-container img {
@@ -298,13 +298,18 @@ footer p {
 
 .profile-main-container {
     padding: 70px 40px;
-    background-color: #e6e9ed;
+    background-color: white;
     margin-bottom: 50px;
 }
 
+.profile-main-container p {
+    font-size: 1.6rem;
+}
+
 .profile-main-container img {
-    width: 350px;
+    width: 300px;
     margin-right: 30px;
+    border-radius: 100%;
 }
 
 .profile-main-container .profile-container {
@@ -312,15 +317,16 @@ footer p {
 }
 
 .profile-container div h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .profile-container div p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .profile-main-projects {
     padding: 0 50px 40px;
+    font-size: 1.6rem;
 }
 
 .profile-main-projects h3 {
@@ -330,37 +336,19 @@ footer p {
     font-size: 2.4rem;
 }
 
+.profile-main-projects h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 .projects-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
 }
 
-@media only screen and (max-width: 400px) {
-    header .header-icons-container .icons {
-        margin: 0 auto;
-    }
-
-    .icons .flaticon-000-github {
-        margin-right: 20px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .nav-logo-container img {
-        margin: 0;
-    }
-
-    .profile-link {
-        align-self: center;
-        margin-bottom: 20px;
-        margin-left: 50px;
-    }  
-
+.project-link {
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
 }
